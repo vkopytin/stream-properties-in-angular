@@ -6,7 +6,7 @@ With RxJS comes a possibility to synchronise data over streams. Such streams can
 
 Here is a small concept. What if we can declare such a property on a control that would accept a stream entity. And will listen to data from it.
 e.g. 
-```
+```typescript
 <input input-stream [value$]="decodedValue$" placeholder="Enter value... />
 ```
 Where
