@@ -10,7 +10,7 @@ e.g.
 <input input-stream [value$]="decodedValue$" placeholder="Enter value... />
 ```
 Where
- - `[value$]` - is a property holding RxJS stream: `BehaviorSubject` on an element decoreted by `input-stream` decorator.
+ - `[value$]` - is a property holding RxJS stream: `BehaviorSubject` on an element decoreted by `input-stream` directive. It can be done in any other way. Directvie idea here has been picked up as a small example.
  - `decodedValue$` - is a property with declared RxJS strea: `BehaviorSubject`. That can be declared from any applicatino's `Service` module.
 
 The project here is an example to show the concept. It shows how data can be synchronised between properties in a bi-directional data flow.
