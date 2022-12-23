@@ -1,4 +1,4 @@
-# StreamingProperties
+# Streaming Properties
 
 It is an experimental project. The goal is to show how RxJS streams can be used from angular templates. As element's custom properties/attributes.
 
