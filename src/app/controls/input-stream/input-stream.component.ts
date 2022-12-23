@@ -1,4 +1,4 @@
-import { Component, Directive, ElementRef, EventEmitter, HostListener, Input, OnDestroy, Output } from '@angular/core';
+import { Directive, ElementRef, EventEmitter, HostListener, Input, OnDestroy, Output } from '@angular/core';
 import { BehaviorSubject, Subscription } from 'rxjs';
 
 @Directive({
