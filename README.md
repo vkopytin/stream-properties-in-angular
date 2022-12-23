@@ -4,7 +4,7 @@ It is an experimental project. The goal is to show how RxJS streams can be used 
 
 With RxJS comes a possibility to synchronise data over streams. Such streams can be declared from service. And it can be used from Angular's component or in template. Usually to accommodate the synchronisation flow of streams with other data/state could lead to much coding.
 
-Here is a small concept. What if we can declare such a property on a control that would accept a stream entity. And will listen to data from it. e.g.
+Here is a small concept. What if we can declare such a property on a control that would accept a stream entity. And will listen to data from it.
 e.g. 
 ```
 <input input-stream [value$]="decodedValue$" placeholder="Enter value... />
