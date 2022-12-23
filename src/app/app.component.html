@@ -1,0 +1,24 @@
+<div class="container" role="main">
+
+  <h1>Base64 encode/decode</h1>
+
+  <form>
+    <div class="input-group form-group mb-3">
+      <label class="input-group-text" for="decoded-value">Decoded:&nbsp;</label>
+      <input input-stream class="form-control" title="Decoded" placeholder="decoded text..." [value$]="decodedValue$" />
+      <button class="btn btn-outline-secondary">
+        <fa-icon [icon]="faCopy"></fa-icon>
+      </button>
+    </div>
+    <div class="input-group form-group mb-3">
+      <label class="input-group-text" for="encoded-value">Encoded:&nbsp;</label>
+      <textarea input-stream class="form-control" id="encoded-value" placeholder="encoded text..."
+        [(value)]="encodedValue">
+      </textarea>
+      <button class="btn btn-outline-secondary">
+        <fa-icon [icon]="faCopy"></fa-icon>
+      </button>
+    </div>
+  </form>
+
+</div>
