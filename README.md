@@ -1,10 +1,10 @@
 # StreamingProperties
 
-It is experimental project. The goal is to show how RxJS stream can be used from angular templates. As element's custom properties/attributes.
+It is an experimental project. The goal is to show how RxJS streams can be used from angular templates. As element's custom properties/attributes.
 
-With RxJS comes a possibility to synchronse data over streams. Such stream can be declared from service. And it can be used from Angular's component or in template. Usually to accomodate the synchronisation flow of streams with other data/state could lead to many coding.
+With RxJS comes a possibility to synchronise data over streams. Such streams can be declared from service. And it can be used from Angular's component or in template. Usually to accommodate the synchronisation flow of streams with other data/state could lead to much coding.
 
-Here is a small concept. What if we can declare such a property on a control that would accept stream entity. And will listen to data from it.
+Here is a small concept. What if we can declare such a property on a control that would accept a stream entity. And will listen to data from it. e.g.
 e.g. 
 ```
 <input input-stream [value$]="decodedValue$" placeholder="Enter value... />
@@ -13,7 +13,7 @@ Where
  - `[value$]` - is a property holding RxJS stream: `BehaviorSubject` on an element decoreted by `input-stream` decorator.
  - `decodedValue$` - is a property with declared RxJS strea: `BehaviorSubject`. That can be declared from any applicatino's `Service` module.
 
-The project here is example to show the concept. It show how data can be synchronised between properties in a bi-directional data flow.
+The project here is an example to show the concept. It shows how data can be synchronised between properties in a bi-directional data flow.
 
 # How to start
 
